@@ -67,7 +67,6 @@ namespace WebApplication2.Controllers
         {
             //取消Session会话
             Session.Abandon();
-
             //删除Forms验证票证
             FormsAuthentication.SignOut();
 
